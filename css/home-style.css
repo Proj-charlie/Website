@@ -506,6 +506,55 @@ body {
       }
 }
 
+#wrapper {
+  height: 100px;
+  width: 500px;
+}
+
+#wrapper {
+  bottom: 50%;
+  right: 50%;
+  position: absolute;
+}
+
+#container1 {
+  position: relative;
+}
+
+#inner1 {
+  height: 100%;
+  border: 1px solid blue;
+}
+
+#inner2 {
+  height: 100%;
+  border: 1px solid green;
+}
+
+#titlebar {
+  cursor: pointer;
+  height: 23px;
+  width: 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#0A246A, endColorStr=#A6CAF0, GradientType=1);
+  color: white;
+  font: 13px arial, helvetica;
+}
+
+#button {
+  position: relative;
+  background-color: #0066ff;
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: black;
+  cursor: pointer;
+  border-radius: 5px;
+  position:absolute;
+  top:10;
+  right:0;
+ }
+}
+
 .heading-5 {
   width: 300px;
   line-height: normal;
