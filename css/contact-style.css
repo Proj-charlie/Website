@@ -392,7 +392,7 @@
         font-family: Inter, sans-serif;
         color: #333;
         font-size: 14px;
-        line-height: 20px
+        line-height: 20px;
     }
     
     h1 {
@@ -628,10 +628,10 @@
     .form-grid-wave {
         width: 100%;
         height: 100%;
-        grid-column-gap: 44px;
+        grid-column-gap: 0px;
         grid-row-gap: 44px;
         -ms-grid-rows: auto;
-        grid-template-rows: auto
+        grid-template-rows: auto;
     }
     
     .h1-white {
@@ -749,6 +749,7 @@
     }
     
     .form-column-wave {
+        padding-left: 100px;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -761,7 +762,7 @@
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: space-between;
     }
     
     .social-wrap {
@@ -864,15 +865,15 @@
         -ms-flex-align: center;
         align-items: center;
         border-radius: 16px;
-        background-color: #000
+        background-color: #000;
     }
     
     .form-wrap-wave {
-        width: 100%;
+        width: 80%;
         /* padding: 35px; */
         padding: 0px 20px 20px 20px;
         border-radius: 20px;
-        background-color: #fff
+        background-color: #fff;
     }
     
     .details-wrap-wave {
@@ -1599,7 +1600,7 @@
         display: -ms-flexbox;
         display: flex;
         width: 100%;
-        margin-bottom: 48px;
+        margin-bottom: 25px;
         padding-top: 32px;
         padding-bottom: 32px;
         -webkit-box-align: center;
@@ -1837,9 +1838,9 @@
     
     .grid-two-column-custom {
         width: 100%;
-        margin-bottom: 48px;
+        /* margin-bottom: 48px; */
         grid-column-gap: 40px;
-        grid-row-gap: 24px;
+        grid-row-gap: 25px;
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         -ms-grid-rows: auto auto auto;
