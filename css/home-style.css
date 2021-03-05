@@ -526,7 +526,6 @@ body {
 @media only screen and (max-width: 782px) {
 .paragraph-2 {
   text-align: center;
-  padding-left: 40px;
       }
 }
 
@@ -625,3 +624,6 @@ body {
   width: 260px;
   height: 70px;
 }
+
+
+
