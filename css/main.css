@@ -175,8 +175,9 @@ iframe {
   font-family: OpenSans-Regular;
   font-size: 30px;
   color: #555555;
-  line-height: 1.2;
+  line-height: 0;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 /*------------------------------------------------------------------
