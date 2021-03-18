@@ -623,7 +623,7 @@ body {
 
 .fa-check-circle:before {
     content: "\f058";
-    color: green;
+    color: green !important;
 }
 
 .link-block-2 {
