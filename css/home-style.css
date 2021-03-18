@@ -622,7 +622,6 @@ body {
 }
 
 .fa-check-circle:before {
-    content: "\f058";
     color: green !important;
 }
 
