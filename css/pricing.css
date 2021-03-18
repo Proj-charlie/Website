@@ -575,3 +575,8 @@ html {
 .text-muted {
   color: #6c757d!important
 }
+
+.fa-check-circle:before {
+    content: "\f058";
+    color: green;
+}
