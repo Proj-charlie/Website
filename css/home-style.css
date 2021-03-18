@@ -621,13 +621,14 @@ body {
   font-family: 'Roboto Mono',sans-serif;
 }
 
+.fa-check-circle:before {
+    content: "\f058";
+    color: green;
+}
+
 .link-block-2 {
   position: absolute;
   left: -2px;
   width: 260px;
   height: 70px;
 }
-
-
-
-
