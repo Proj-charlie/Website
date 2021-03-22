@@ -371,10 +371,8 @@ body {
 }
 
 .logo {
-  position: static;
-  left: -98px;
-  display: inline-block;
-  float: left;
+  position: relative;
+  left: 100px;
 }
 
 .div-block {
@@ -516,7 +514,20 @@ body {
   position: absolute;
   top: -90px;
   right: 75px;
- }
+}
+
+@media only screen and (max-width: 782px) {
+.phone {
+  visibility: hidden;
+   }
+}
+
+.phone {
+  font-family: 'Roboto';
+  color: white;
+  top: -50px;
+  right: 0px;
+  position: absolute;
 }
 
 .heading-5 {
