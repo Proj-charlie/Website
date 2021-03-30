@@ -658,11 +658,6 @@ body {
     width: 260px;
     height: 70px;
 }
-
-.footer-pos {
-    padding-left: 60px;
-}
-
 .footer-heading {
     color: #fff;
     font-size: 18px;
@@ -710,7 +705,6 @@ body {
 }
 .social {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 .footer-logo {
     padding-top: 40px;
