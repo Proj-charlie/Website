@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCZWSX4SDR"></script>
     <script>
@@ -12,8 +11,6 @@
         gtag('config', 'G-MCZWSX4SDR');
     </script>
 
-    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> 
-	
     <!-- Meta and opengraph -->
     <meta charset="utf-8">
     <title>Laanaya | Managed Minecraft servers</title>
@@ -28,114 +25,147 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/browserconfig.xml">
     <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Stylesheets, icons and fonts -->
-    <link href="css/home-style.css" rel="stylesheet" type="text/css" />
-    <link href="css/pricing.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <link href="css/page/home.css" rel="stylesheet" type="text/css" />
+    <style>
+        .card-header-popular {
+            background: white;
+        }
+
+        .fa-check-circle:before {
+            content: "\f058";
+            color: green;
+        }
+    </style>
 </head>
 
 <body class="body">
     <div class="container w-container">
-        <div>
-            <div class="div-block w-clearfix">
-                <h1 class="heading">Laanaya</h1>
-                <p class="paragraph">Hosting as a service</p>
-                <div id="container1">
-                    <a href="contact.html"> <input class="button-1" type="button" value="Quote"> </a>
-                    <a href="https://panel.laanaya.org"> <input class="button-2" type="button" value="Client portal"> </a>
-                    <p class="phone"> + 1 (307) 2180219</p>
+        <header>
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between w-100">
+                <div class="text-center text-lg-left">
+                    <h1 class="heading mb-0">Laanaya</h1>
+                    <p class="paragraph">Hosting as a service</p>
+                </div>
+                <div id="laanaya-wrapper" class="text-center text-lg-right">
+                    <div class="d-flex">
+                        <a href="https://panel.laanaya.org" class="laanaya-button-secondary">Client Portal</a>
+                        <a href="contact.html" class="laanaya-button-primary">Quote</a>
+                    </div>
+                    <p class="phone mt-3 mx-2">
+                        <a href="tel:+13072180219" class="text-white">+ 1 (307) 2180219</a>
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="section">
-            <h2 class="heading3">Our customers</h2>
-            <ul class="unordered-list w-clearfix w-list-unstyled">
-                <li class="list-item minevictus">
-                    <a href="https://minevict.us" aria-label="Turtlebob" rel="noreferrer" target="_blank" class="link-company w-inline-block"></a>
-                    <h3 class="heading-2">Minevictus</h3>
-                    <div class="text-block-2">Multiplayer servers</div>
-                </li>
-                <li class="list-item turtlebob">
-                    <a href="https://turtlebob.com" aria-label="Turtlebob" rel="noreferrer" target="_blank" class="link-company w-inline-block"></a>
-                    <h3 class="heading-2">Turtlebob</h3>
-                    <div class="text-block-2">Multiplayer servers</div>
-                </li>
-            </ul>
-        </div>
-        <div>
+        </header>
+        <section class="section row">
+            <div class="col-12 text-center text-lg-left">
+                <h2 class="heading3">Our customers</h2>
+            </div>
+            <div class="col-12">
+                <ul class="unordered-list w-clearfix w-list-unstyled row">
+                    <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start">
+                        <li class="list-item minevictus">
+                            <a href="https://minevict.us" aria-label="Turtlebob" rel="noreferrer" target="_blank" class="link-company w-inline-block">
+                                <h3 class="heading-2">Minevictus</h3>
+                                <div class="text-block-2">Multiplayer servers</div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start">
+                        <li class="list-item turtlebob">
+                            <a href="https://turtlebob.com" aria-label="Turtlebob" rel="noreferrer" target="_blank" class="link-company w-inline-block">
+                                <h3 class="heading-2">Turtlebob</h3>
+                                <div class="text-block-2">Multiplayer servers</div>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section>
             <p class="paragraph-3">Up-keeping the performance and stability of a Minecraft server requires great effort from administrators. Everyday they ensure that add-ons work, whilst simultaneously chasing after bugs and inconsistencies. These responsibilities take away
                 precious time from what they could be doing, such as is growing their server and focusing on their community.
             </p>
             <p class="paragraph-3">With every upcoming Minecraft update, performance starts to degrade on a production server. This allows for an almost continuous cycle of chasing performance and stability issues.</p>
             <p class="paragraph-3">In our own adventures, we faced the same problems. After spending countless hours working on patches, we quickly realized the importance of delegation. If we spent less time on chores, we would be able to refocus that time on growing the server
                 and giving our players what they want, new features or events. We aim to take up some of those tasks so you can do something else.</p>
-        </div>
-        <div class="container-pricing">
+        </section>
+        <section class="container-pricing">
             <h2 class="heading3">Pricing</h2>
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h2 class="my-0 font-weight-normal">Normal hosting</h2>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">$2.50 / GB</h3>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li><i class="fas fa-check-circle"></i> Technical support</li>
-                            <li><i class="fas fa-check-circle"></i> Dynamic storage</li>
-                            <li><i class="fas fa-check-circle"></i> One two three</li>
-                            <li><i class="fas fa-check-circle"></i> Four five six</li>
-                            <li><i class="fas fa-check-circle"></i> Seven eight nine</li>
-
-                        </ul>
-                        <a href="https://billing.laanaya.org/cart.php?a=add&pid=3" type="button" class="btn btn-lg btn-block btn-outline-primary">Order now</a>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header-popular">
-                        <h2 class="my-0 font-weight-normal">Managed hosting</h2>
-                    </div>
-                    <div class="card-body-popular">
-                        <h3 class="card-title pricing-card-title">$1.95 / GB + $19.95</h3>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li><i class="fas fa-check-circle"></i> Dedicated slack channel</li>
-                            <li><i class="fas fa-check-circle"></i> Performance patches</li>
-                            <li><i class="fas fa-check-circle"></i> Recovery upon calamity</li>
-                            <li><i class="fas fa-check-circle"></i> Prevention of crashes</li>
-                            <li><i class="fas fa-check-circle"></i> Daily backups</li>
-                        </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+            <div class="row card-deck mb-3 text-center">
+                <div class="col-12 col-lg-4">
+                    <div class="card mx-0 mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h2 class="my-0 font-weight-normal">Normal hosting</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">$2.50 / GB</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="fas fa-check-circle"></i> Technical support</li>
+                                <li><i class="fas fa-check-circle"></i> Dynamic storage</li>
+                                <li><i class="fas fa-check-circle"></i> One two three</li>
+                                <li><i class="fas fa-check-circle"></i> Four five six</li>
+                                <li><i class="fas fa-check-circle"></i> Seven eight nine</li>
+    
+                            </ul>
+                            <a href="https://billing.laanaya.org/cart.php?a=add&pid=3" type="button" class="btn btn-lg btn-block btn-outline-primary">Order now</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h2 class="my-0 font-weight-normal">Premium hosting</h2>
+                <div class="col-12 col-lg-4">
+                    <div class="card mx-0 mb-4 shadow-sm">
+                        <div class="card-header card-header-popular">
+                            <h2 class="my-0 font-weight-normal">Managed hosting</h2>
+                        </div>
+                        <div class="card-body card-body-popular">
+                            <h3 class="card-title pricing-card-title">$1.95 / GB + $19.95</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="fas fa-check-circle"></i> Dedicated slack channel</li>
+                                <li><i class="fas fa-check-circle"></i> Performance patches</li>
+                                <li><i class="fas fa-check-circle"></i> Recovery upon calamity</li>
+                                <li><i class="fas fa-check-circle"></i> Prevention of crashes</li>
+                                <li><i class="fas fa-check-circle"></i> Daily backups</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Custom pricing</h3>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li><i class="fas fa-check-circle"></i> Emergency phoneline</li>
-                            <li><i class="fas fa-check-circle"></i> System administration</li>
-                            <li><i class="fas fa-check-circle"></i> Access to developers</li>
-                            <li><i class="fas fa-check-circle"></i> In-game support for staff</li>
-                            <li><i class="fas fa-check-circle"></i> SLA of 99%*</li>
-                        </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card mx-0 mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h2 class="my-0 font-weight-normal">Premium hosting</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">Custom pricing</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="fas fa-check-circle"></i> Emergency phoneline</li>
+                                <li><i class="fas fa-check-circle"></i> System administration</li>
+                                <li><i class="fas fa-check-circle"></i> Access to developers</li>
+                                <li><i class="fas fa-check-circle"></i> In-game support for staff</li>
+                                <li><i class="fas fa-check-circle"></i> SLA of 99%*</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <p class="paragraph-3">Take your mind off the technicalities, leave it to us. It is our goal to work with you to guarantee that your server will run smoothly. We will be the first to respond if there are any issues with your server, so you can sleep well tonight. With
-            us on your side, you will be able to save time, grow your server and create unforgettable experiences.</p>
-    </div>
-    <footer>
-        <div class="w-container">
+            <p class="paragraph-3">
+                Take your mind off the technicalities, leave it to us. It is our goal to work with you to guarantee that your server will run smoothly. We will be the first to respond if there are any issues with your server, so you can sleep well tonight. With
+                us on your side, you will be able to save time, grow your server and create unforgettable experiences.
+            </p>
+        </section>
+        <footer>
             <div class="row">
-                <div class="col-md-3">
-                    <div class="settings">
-                        <img src="assets/demo.png" width="250" height="100" class="footer-logo">
+                <div class="col-12 col-lg-3">
+                    <div class="settings text-center text-lg-left">
+                        <img src="assets/laanaya-logo.svg" class="footer-logo">
                         <div class="logo-part mt-3"> </div>
                         <div class="social">
                             <i class="fab fa-github custom-icon"></i>
@@ -144,49 +174,53 @@
                             <i class="fab fa-slack custom-icon"></i>
                             <i class="fab fa-discord custom-icon"></i>
                         </div>
-                             <div class="trustpilot-widget" data-locale="en-US" data-template-id="5613c9cde69ddc09340c6beb" data-businessunit-id="605d0f46089d1e00019a354d" data-style-height="100%" data-style-width="100%" data-theme="dark">
+                                <div class="trustpilot-widget" data-locale="en-US" data-template-id="5613c9cde69ddc09340c6beb" data-businessunit-id="605d0f46089d1e00019a354d" data-style-height="100%" data-style-width="100%" data-theme="dark">
                             <a href="https://www.trustpilot.com/review/laanaya.org" target="_blank" rel="noopener">Trustpilot</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="settings">
                         <div class="row">
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <h2 class="footer-heading text-center">Resources</h2>
-                                <div class="ml-5" style="margin-left: 30%;">
+                            <div class="col-12 col-lg-6">
+                                <h2 class="footer-heading text-center text-lg-left">Resources</h2>
+                                <div class="text-center text-lg-left">
                                     <ul class="list-unstyled-2">
-										<li><a class="linkage list-item-3" href="resources/terms-and-conditions.html" rel="noreferrer" target="_blank">Terms and conditions</a></i>
-										<li><a class="linkage list-item-3" href="resources/privacy-policy.html" rel="noreferrer" target="_blank">Privacy policy</a></i>
+                                        <li><a class="linkage list-item-3" href="resources/terms-and-conditions.html" rel="noreferrer" target="_blank">Terms and conditions</a></i>
+                                        <li><a class="linkage list-item-3" href="resources/privacy-policy.html" rel="noreferrer" target="_blank">Privacy policy</a></i>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-
-                                <h2 class="footer-heading text-center">Company</h2>
-                                <div class="ml-5" style="margin-left: 30%;">
+                            <div class="col-12 col-lg-6">
+    
+                                <h2 class="footer-heading text-center text-lg-left">Company</h2>
+                                <div class="text-center text-lg-left">
                                     <ul class="list-unstyled-2">
-										<li><a class="linkage list-item-3" href="company/news.html" rel="noreferrer" target="_blank">News</a></i>
-										<li><a class="linkage list-item-3" href="company/changelog.html" rel="noreferrer" target="_blank">Blog</a></i>
+                                        <li><a class="linkage list-item-3" href="company/news.html" rel="noreferrer" target="_blank">News</a></i>
+                                        <li><a class="linkage list-item-3" href="company/changelog.html" rel="noreferrer" target="_blank">Blog</a></i>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" style="left: 5%;">
+                <div class="col-12 col-lg-3">
                     <div class="logo-part2"></div>
-                    <div class="settings">
+                    <div class="settings text-center text-lg-left">
                         <h2 class="footer-heading">Sales department</h2>
-                        <p class="paragraph-3">amin@laanaya.org<br>+1 (307) 2180219</br>
+                        <p class="paragraph-3 text-center text-lg-left">amin@laanaya.org<br>+1 (307) 2180219</br>
                         </p>
                         <a href="contact.html" class="btn-footer"> Get a quote </a>
                     </div>
                 </div>
-                <br>
-                <p class="copyright">&copy; 2021 Laanaya enterprises, LLC.</p>
-           <div>
-       </div>
-    </footer>
+                <div class="w-100">
+                    <p class="copyright text-center">&copy; 2021 Laanaya enterprises, LLC.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> 
+	
 </body>
 </html>

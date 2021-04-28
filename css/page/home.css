@@ -232,7 +232,6 @@ body::-webkit-scrollbar-thumb {
 
 .list-item,
 .list-item.dribbble {
-    width: 300px;
     margin-bottom: 25px;
     position: relative;
 }
@@ -293,22 +292,12 @@ body {
 }
 
 .heading {
-    margin-top: 0px;
-    margin-left: 105px;
     color: #fff;
     font-weight: 600;
-}
-
-@media only screen and (max-width: 782px) {
-    .paragraph {
-        text-align: center;
-        margin-left: 105px;
-    }
+    line-height: 1;
 }
 
 .paragraph {
-    margin-top: -19px;
-    margin-left: 105px;
     font-size: 25px;
     line-height: 50px;
     font-weight: 300;
@@ -323,7 +312,7 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 65%;
+        /* width: 65%; */
     }
 }
 
@@ -398,7 +387,6 @@ body {
 .container {
     margin-bottom: 100px;
     padding-top: 40px;
-    padding-left: 0;
 }
 
 .logo {
@@ -430,9 +418,7 @@ body {
 }
 
 .list-item-3 {
-    width: 260px;
-    margin-right: 43px;
-    float: left;
+    /* max-width: 260px; */
     font-size: 15px;
 }
 
@@ -498,53 +484,41 @@ body {
     }
 }
 
-#container1 {
+#laanaya-wrapper {
     position: relative;
 }
 
-@media only screen and (max-width: 782px) {
-    .button-1 {
-        top: 5px !important;
-        right: 80px !important;
-    }
-}
-
-.button-1 {
+.laanaya-button-primary {
     border: 2px solid #007bff;
     background-color: #0066ff;
     color: white;
     font-size: 14px;
-    padding: 8px 12px;
+    padding: 4px 12px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 5px;
-    position: absolute;
-    top: -90px;
-    right: 1px;
 }
 
-
-}
-#container1 {
-    position: relative;
-}
-@media only screen and (max-width: 782px) {
-    .button-2 {
-        top: 5px !important;
-        right: 150px !important;
-    }
-}
-.button-2 {
+.laanaya-button-secondary {
     border: 2px solid #9c9c9c;
     background-color: #ffffff;
     color: black;
     font-size: 14px;
-    padding: 8px 12px;
+    padding: 4px 12px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 5px;
-    position: absolute;
-    top: -90px;
-    right: 75px;
 }
+
+.laanaya-button-primary:hover,
+.laanaya-button-secondary:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.laanaya-button-primary:hover {
+    color: white;
+}
+
 @media only screen and (max-width: 782px) {
     .phone {
         visibility: hidden;
@@ -553,9 +527,6 @@ body {
 .phone {
     font-family: 'Roboto';
     color: white;
-    top: -50px;
-    right: 0px;
-    position: absolute;
 }
 .heading-5 {
     width: 300px;
@@ -605,14 +576,9 @@ body {
     font-style: italic;
 }
 .link-company {
-    position: absolute;
-    left: -3px;
-    top: 0;
-    right: -3px;
     bottom: 0;
     display: block;
-    width: 280px;
-    height: 60px;
+    min-height: 60px;
 }
 .name {
     margin-top: 10px;
@@ -670,20 +636,6 @@ body {
     margin-bottom: 40px!important;
 }
 
-/* .col-md-3,
-.col-md-6 {
-    border: 1px solid white!important;
-} */
-.logo-part {
-    border-bottom: 1px solid white!important;
-}
-.logo-part2 {
-    border-left: 1px solid white!important;
-    height: 138px!important;
-    position: absolute!important;
-    top: 40px!important;
-    left: 10px;
-}
 .btn-footer {
     background-color: #0066ff;
     color: white;
@@ -774,4 +726,8 @@ body {
 
 .dark a {
     color: #000 !important;
+}
+
+.container {
+    max-width: 960px;;
 }

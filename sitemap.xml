@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://laanaya.org/</loc>
+  <lastmod>2021-04-17T22:48:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://laanaya.org/contact.html</loc>
+  <lastmod>2021-04-05T14:54:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laanaya.org/resources/terms-and-conditions.html</loc>
+  <lastmod>2021-04-05T14:47:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laanaya.org/resources/privacy-policy.html</loc>
+  <lastmod>2021-04-05T14:47:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laanaya.org/company/news.html</loc>
+  <lastmod>2021-04-05T14:50:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laanaya.org/company/changelog.html</loc>
+  <lastmod>2021-04-05T14:50:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

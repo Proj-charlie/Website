@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 :root {
-  --blue: #fff;
+  --blue: #0e0620;
   --white: #fff;
-  --green: #fff;
+  --green: #2ccf6d;
 }
 
 html,
 body {
   height: 100%;
-  background-color: #000;
 }
 
 body {
@@ -235,4 +234,4 @@ nav[data-state="open"] ul li:nth-child(4) {
     margin-bottom: 70px;
   }
 }
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=404-stylesheet.css.map */
