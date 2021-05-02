@@ -737,3 +737,14 @@ body {
 .card-body {
     padding-top: 0.50rem;
 }
+
+.free-trial {
+    border: 6px solid #007bff;
+    background-color: #0066ff;
+    color: white;
+    font-size: 14px;
+    padding: 4px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
