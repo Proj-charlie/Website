@@ -748,3 +748,28 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+
+li {
+    padding-left: 17%;
+    text-align: left;
+}
+
+@media screen and (max-width:991px) {
+.list-footer {
+    text-align: center;
+    }
+}
+
+.list-footer {
+padding-left: unset !important;
+}
+
+.disclaimer {
+    color: beige;
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1;
+    top: -19px;
+    position: relative;
+}
