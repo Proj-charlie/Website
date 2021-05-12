@@ -715,6 +715,37 @@ body {
     color: white;
     opacity: 0.75;
 }
+.success-story {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.success-image {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.25rem;
+    margin-right: 30px;
+}
+.success-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.25rem;
+    color: white;
+}
+.success-name {
+    margin: 0;
+}
+.success-subline {
+    opacity: 0.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.success-content {
+    margin: 0;
+}
 
 /* Footer Custom Css */
 .logo-footer {
