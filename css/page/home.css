@@ -632,6 +632,120 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
 }
+.reviews {
+    flex-wrap: nowrap !important;
+    margin-bottom: 20px;
+}
+.reviews-scroller {
+    position: relative;
+    outline: none;
+}
+.reviews-scroller > .flickity-viewport {
+    overflow-x: hidden;
+    border-radius: 0.25rem;
+}
+.reviews-scroller > .flickity-button {
+    display: flex;
+    background: none;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.reviews-scroller > .flickity-button > svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+.reviews-scroller > .flickity-button:disabled > svg {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+.reviews-scroller > .flickity-button.previous {
+    left: -30px;
+}
+.reviews-scroller > .flickity-button.next {
+    right: -30px;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+}
+.review-box {
+    position: relative;
+    background: white;
+    padding: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin-bottom: 24px;
+}
+.review-box::after {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-width: 12px 15px;
+    border-top-color: #fff;
+}
+.review-content {
+    margin: 0;
+}
+.review-author {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.review-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 1rem;
+}
+.review-name {
+    margin: 0;
+    color: white;
+}
+.review-subline {
+    margin: 0;
+    color: white;
+    opacity: 0.75;
+}
+.success-story {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.success-image {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.25rem;
+    margin-right: 30px;
+}
+.success-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.25rem;
+    color: white;
+}
+.success-name {
+    margin: 0;
+}
+.success-subline {
+    opacity: 0.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.success-content {
+    margin: 0;
+}
 
 /* Footer Custom Css */
 .logo-footer {
