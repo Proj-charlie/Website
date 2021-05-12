@@ -438,10 +438,13 @@ body {
 }
 
 .heading-3 {
-    padding-top: 41px;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 300;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    color: beige;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 500;
+    letter-spacing: .4px;
 }
 
 .heading-4 {
@@ -656,7 +659,7 @@ body {
 .reviews-scroller > .flickity-button > svg {
     width: 30px;
     height: 30px;
-    fill: white;
+    fill: black;
 }
 .reviews-scroller > .flickity-button:disabled > svg {
     opacity: 0.25;
@@ -712,13 +715,12 @@ body {
 }
 .review-subline {
     margin: 0;
-    color: white;
-    opacity: 0.75;
+    color: beige;
 }
 .success-story {
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 .success-image {
     max-width: 400px;
@@ -739,9 +741,9 @@ body {
     margin: 0;
 }
 .success-subline {
-    opacity: 0.75;
     margin-top: 0;
     margin-bottom: 1rem;
+    color: beige;
 }
 .success-content {
     margin: 0;
@@ -984,4 +986,3 @@ padding-left: unset !important;
   margin-right:12px;
   margin-top:-5px;
 }
-
