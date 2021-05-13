@@ -346,20 +346,14 @@ body {
     background-size: 55px;
 }
 
-.list-item.laanaya {
-    background-image: url(./assets/laanaya.jpg);
-    background-position: 0 0;
-    background-size: 58px;
-}
-
 .list-item.minevictus {
-    background-image: url(https://i.imgur.com/qchYLCL.jpeg);
+    background-image: url(../../assets/minevictus.jpg);
     background-position: 0 0;
     background-size: 51px;
 }
 
 .list-item.turtlebob {
-    background-image: url(https://i.imgur.com/WWz1St6.jpeg);
+    background-image: url(../../assets/turtlebob.jpg);
     background-position: 0 4px;
     background-size: 55px;
 }
