@@ -731,8 +731,16 @@ body {
     border-radius: 0.25rem;
     color: white;
 }
+@media screen and (max-width: 992px) {
+.success-name {
+    text-align: center;
+}
 .success-name {
     margin: 0;
+}
+@media screen and (max-width: 992px) {
+.success-subline {
+    text-align: center;
 }
 .success-subline {
     margin-top: 0;
@@ -781,10 +789,14 @@ body {
     letter-spacing: 3px!important;
 }
 .social {
-    padding-top: 20px;
+    top: -40px;
+    position: relative;
 }
 .footer-logo {
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: white 1px;
 }
 
 /* responsive code */
