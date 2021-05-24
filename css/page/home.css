@@ -735,14 +735,17 @@ body {
 @media screen and (max-width: 992px) {
 .success-name {
     text-align: center;
+    }
 }
 .success-name {
     margin: 0;
 }
 
+
 @media screen and (max-width: 992px) {
 .success-subline {
     text-align: center;
+    }
 }
 .success-subline {
     margin-top: 0;
