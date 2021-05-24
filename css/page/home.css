@@ -357,6 +357,11 @@ body {
     background-position: 0 4px;
     background-size: 55px;
 }
+.list-item.bleed {
+    background-image: url(../../assets/bleed.jpg);
+    background-position: 0 4px;
+    background-size: 55px;
+}
 
 .text-block-2 {
     color: #fff;
