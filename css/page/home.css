@@ -838,6 +838,16 @@ body {
     }
 }
 
+.external::after {
+    content: " ";
+    position: relative;
+    display: inline-block;
+    background: url(/assets/external.svg);
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+}
+
 /* responsive code */
 
 /* @media screen and (max-width:780px) {
