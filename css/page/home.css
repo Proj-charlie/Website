@@ -820,6 +820,7 @@ body {
     margin-bottom: 40px;
 }
 .footer-mascot {
+    padding-top: 20px;
     width: 100%;
     max-width: 200px;
     height: auto;
