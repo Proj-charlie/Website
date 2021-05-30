@@ -349,7 +349,7 @@ body {
 }
 
 .list-item.minevictus {
-    background-image: url(../../assets/minevictus.jpg);
+    background-image: url(assets/minevictus.jpg);
     background-position: 0 0;
     background-size: 51px;
 }
@@ -843,7 +843,7 @@ body {
     content: " ";
     position: relative;
     display: inline-block;
-    background: url(/assets/external.svg);
+    background: url(../../assets/external.svg);
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
